@@ -33,37 +33,30 @@ const userRoutes = [
     items: [{ icon: Layout, label: "Dashboard", href: "/dashboard" }],
   },
   {
-    title: "master",
+    title: "parent1",
     items: [
-      { icon: List, label: "Products", href: "/products" },
-      { icon: User, label: "Users", href: "/users" },
-      { icon: Contact, label: "Customers", href: "/customers" },
-      { icon: Factory, label: "Suppliers", href: "/suppliers" },
-      { icon: Banknote, label: "Banks", href: "/banks" },
+      { icon: List, label: "Menu 1", href: "/menu1" },
+      { icon: List, label: "Menu 2", href: "/menu2" },
+      { icon: List, label: "Menu 3", href: "/menu3" },
     ],
   },
   {
-    title: "purchases",
+    title: "parent2",
     items: [
-      { icon: ShoppingBag, label: "Purchase", href: "/purchases" },
-      { icon: Box, label: "Receives", href: "/receives" },
+      { icon: List, label: "Menu 4", href: "/menu4" },
+      { icon: List, label: "Menu 5", href: "/menu5" },
+      { icon: List, label: "Menu 6", href: "/menu6" },
     ],
   },
   {
-    title: "sales",
+    title: "parent3",
     items: [
-      { icon: BadgeDollarSign, label: "Sales", href: "/sales" },
-      { icon: Truck, label: "Deliveries", href: "/deliveries" },
+      { icon: List, label: "Menu 7", href: "/menu7" },
+      { icon: List, label: "Menu 8", href: "/menu8" },
+      { icon: List, label: "Menu 9", href: "/menu9" },
     ],
   },
-  {
-    title: "finances",
-    items: [
-      { icon: ArrowLeftRight, label: "Cash", href: "/cash" },
-      { icon: TrendingUp, label: "Ac. Receivable", href: "/receivables" },
-      { icon: TrendingDown, label: "Ac. Payable", href: "/payables" },
-    ],
-  },
+
   {
     title: "monitoring",
     items: [{ icon: Printer, label: "Reports", href: "/reports" }],
@@ -75,20 +68,6 @@ const analyticRoutes = [
     title: "analytics",
     items: [
       { icon: BarChart, label: "Analytics", href: "/analytics/dashboard" },
-      {
-        icon: BadgeDollarSign,
-        label: "Transactions",
-        href: "/analytics/transactions",
-      },
-      { icon: TrendingUp, label: "Revenues", href: "/analytics/revenues" },
-      { icon: TrendingDown, label: "Costs", href: "/analytics/costs" },
-      { icon: LucideBoxes, label: "Products", href: "/analytics/products" },
-      { icon: LucideUsers, label: "Customer", href: "/analytics/customers" },
-      {
-        icon: FileClock,
-        label: "Event Log",
-        href: "/analytics/logs",
-      },
     ],
   },
 ];
